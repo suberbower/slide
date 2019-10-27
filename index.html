@@ -1,0 +1,323 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta name="generator" content="Hugo 0.58.3" />
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+  <meta name="application-name" content="" />
+
+  <title></title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/reveal.min.css" integrity="sha256-ol2N5Xr80jdDqxK0lte3orKGb9Ja3sOnpAUV7TTADmg=" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/css/theme/night.min.css' />
+  <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css' />
+
+  
+</head>
+<body>
+
+
+
+  <div class="reveal">
+    <div class="slides">
+      <section
+  id="/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>Suberbowerpoint</h1>
+    
+  
+
+  
+
+<h3 id="presentation-slides-in-a-new-engaging-style">Presentation slides in a new engaging style</h3>
+
+<p>Created by <a href="https://github.com/RealOrangeOne/hugo-theme-revealjs">Suberbower</a> with <a href="https://revealjs.com/#/">Reveal.js</a></p>
+
+</section>
+
+
+      
+        <section>
+          <section
+  id="/1/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>You can go down and to the right</h1>
+    
+  
+
+  <pre><code class="language-shell">$ Ok fine, click one of the arrows_
+</code></pre>
+
+</section>
+
+
+          
+            <section
+  id="/1/inline/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>You went down</h1>
+    
+  
+
+  <p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<blockquote>
+</blockquote>
+
+<pre><code class="language-shell">$ echo whereami
+searching...
+searching......
+searching.........
+output location: &quot;Somewhere in the middle of the slides&quot;
+</code></pre>
+
+<p></span></p>
+
+</section>
+
+          
+            <section
+  id="/1/multiple/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>and use multiple</h1>
+    
+  
+
+  <p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<blockquote>
+<p>on
+</span></p>
+</blockquote>
+
+<p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<blockquote>
+<p>one
+</span></p>
+</blockquote>
+
+<p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<blockquote>
+<p>slide
+</span></p>
+</blockquote>
+
+</section>
+
+          
+            <section
+  id="/1/reorder/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>Shuffling them around</h1>
+    
+  
+
+  <p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<pre><code>data-fragment-index='1'
+</code></pre>
+
+<blockquote>
+<p>some
+</span></p>
+</blockquote>
+
+<p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<pre><code>data-fragment-index='3'
+</code></pre>
+
+<blockquote>
+<p>funny
+</span></p>
+</blockquote>
+
+<p>&lt;span
+  class=&lsquo;fragment &lsquo;</p>
+
+<pre><code>data-fragment-index='2'
+</code></pre>
+
+<blockquote>
+<p>order
+</span></p>
+</blockquote>
+
+</section>
+
+          
+        </section>
+      
+        <section>
+          <section
+  id="/2/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>You can go down but not to the right</h1>
+    
+  
+
+  <pre><code class="language-shell">S Ok fine, click one of the arrows_
+</code></pre>
+
+</section>
+
+
+          
+            <section
+  id="/2/large/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>Highlights!</h1>
+    
+  
+
+  <pre><code class="language-html">{{ define &quot;main&quot; }}
+
+  &lt;div class=&quot;reveal&quot;&gt;
+    &lt;div class=&quot;slides&quot;&gt;
+      {{ partial &quot;slide.html&quot; . }}
+
+      {{ range sort .Site.Sections &quot;Weight&quot; &quot;desc&quot; }}
+        &lt;section&gt;
+          {{ partial &quot;slide.html&quot; . }}
+
+          {{ range sort .Pages &quot;Weight&quot; &quot;desc&quot; }}
+            {{ partial &quot;slide.html&quot; . }}
+          {{ end }}
+        &lt;/section&gt;
+      {{ end }}
+    &lt;/div&gt;
+  &lt;/div&gt;
+{{ end }}
+
+</code></pre>
+
+</section>
+
+          
+            <section
+  id="/2/inline/"
+
+  
+
+  
+
+  
+
+  
+>
+  
+    
+      <h1>Large Blocks</h1>
+    
+  
+
+  <p>Large blocks of code</p>
+
+<pre><code class="language-text">as a block
+</code></pre>
+
+<p>or <code>inline</code></p>
+
+</section>
+
+          
+        </section>
+      
+    </div>
+  </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/js/reveal.min.js" integrity="sha256-ixSKHrWAL2k0mqVSRju9+to2/uZSEK9+kJRfdNBolG8=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.6.0/plugin/zoom-js/zoom.min.js" integrity="sha256-r7x+4iKcDauI3cOr35pRCf1DsmoaRLuURBgs2yU7u64=" crossorigin="anonymous"></script>
+
+
+<script type="application/json" id="reveal-user-config">null</script>
+<script type="application/json" id="reveal-default-config">{"center":true}</script>
+
+<script type="application/javascript" src='/hugo-theme-revealjs.js'></script>
+
+
+</body>
+</html>
+

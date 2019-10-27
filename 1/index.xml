@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>You can go down and to the right on </title>
+    <link>/1/</link>
+    <description>Recent content in You can go down and to the right on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>and use multiple</title>
+      <link>/1/multiple/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/multiple/</guid>
+      <description>&amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+ on 
+ &amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+ one 
+ &amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+ slide 
+ </description>
+    </item>
+    
+    <item>
+      <title>You went down</title>
+      <link>/1/inline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/inline/</guid>
+      <description>&amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+  $ echo whereami searching... searching...... searching......... output location: &amp;quot;Somewhere in the middle of the slides&amp;quot;</description>
+    </item>
+    
+    <item>
+      <title>Shuffling them around</title>
+      <link>/1/reorder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/1/reorder/</guid>
+      <description>&amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+data-fragment-index=&#39;1&#39;   some 
+ &amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+data-fragment-index=&#39;3&#39;   funny 
+ &amp;lt;span class=&amp;lsquo;fragment &amp;lsquo;
+data-fragment-index=&#39;2&#39;   order 
+ </description>
+    </item>
+    
+  </channel>
+</rss>
