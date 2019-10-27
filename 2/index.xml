@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>You can go down but not to the right on </title>
+    <link>/2/</link>
+    <description>Recent content in You can go down but not to the right on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Highlights!</title>
+      <link>/2/large/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2/large/</guid>
+      <description>{{ define &amp;quot;main&amp;quot; }} &amp;lt;div class=&amp;quot;reveal&amp;quot;&amp;gt; &amp;lt;div class=&amp;quot;slides&amp;quot;&amp;gt; {{ partial &amp;quot;slide.html&amp;quot; . }} {{ range sort .Site.Sections &amp;quot;Weight&amp;quot; &amp;quot;desc&amp;quot; }} &amp;lt;section&amp;gt; {{ partial &amp;quot;slide.html&amp;quot; . }} {{ range sort .Pages &amp;quot;Weight&amp;quot; &amp;quot;desc&amp;quot; }} {{ partial &amp;quot;slide.html&amp;quot; . }} {{ end }} &amp;lt;/section&amp;gt; {{ end }} &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; {{ end }}  </description>
+    </item>
+    
+    <item>
+      <title>Large Blocks</title>
+      <link>/2/inline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/2/inline/</guid>
+      <description>Large blocks of code
+as a block  or inline</description>
+    </item>
+    
+  </channel>
+</rss>
